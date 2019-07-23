@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - 10
+  - 8
 addons:
   apt:
     packages:
@@ -16,4 +17,4 @@ cache:
 install:
   - npm ci
 script:
-  - $(npm bin)/cypress run --record
+  - npx cypress run
