@@ -20,6 +20,6 @@ script:
 notifications:
   email:
     recipients:
-      - janjaap@users.noreply.github.co
+      - git@jjvd.net
     on_success: always
     on_failure: always
