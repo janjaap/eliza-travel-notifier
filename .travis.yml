@@ -17,3 +17,9 @@ install:
   - npm ci
 script:
   - npx cypress run
+notifications:
+  email:
+    recipients:
+      - janjaap@users.noreply.github.co
+    on_success: always
+    on_failure: always
