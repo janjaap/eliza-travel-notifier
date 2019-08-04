@@ -1,7 +1,7 @@
 context("Actions", () => {
   beforeEach(() => {
     cy.visit(
-      "https://www.elizawashere.nl/griekenland/lesbos/eftalou_molivos/villas_molivos_castle.htm?view=prices&transport=vl"
+      "/eftalou_molivos/villas_molivos_castle.htm?view=prices&transport=vl"
     );
   });
 
