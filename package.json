@@ -9,7 +9,7 @@
     "test": "npx cypress run assert_price"
   },
   "dependencies": {
-    "next": "9.3.2",
+    "next": "9.5.5",
     "react": "16.8.6",
     "react-dom": "16.8.6"
   },
